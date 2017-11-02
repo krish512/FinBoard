@@ -1,0 +1,19 @@
+.fa {
+    color: white;
+    height: 100%;
+    margin-top: 50%;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.icon {
+    background-color: #085;
+    border: 5px solid #075;
+    text-align: center;
+}

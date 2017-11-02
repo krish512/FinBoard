@@ -1,0 +1,11 @@
+<nav class="navbar navbar-dark bg-primary">
+  <a class="navbar-brand text-center" href="/">Finboard</a>
+</nav>
+<nav class="navbar navbar-dark bg-dark sidebar">
+  <ul class="nav flex-column">
+    <li class="nav-item" [class.active]="sideNavItem.active === true" *ngFor="let sideNavItem of sideNavItems">
+      <a class="nav-link" href="{{sideNavItem.path}}">
+        <i class="fa fa-{{sideNavItem.icon}}" aria-hidden="true"></i> {{sideNavItem.name}}</a>
+    </li>
+  </ul>
+</nav>
