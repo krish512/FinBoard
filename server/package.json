@@ -1,0 +1,35 @@
+{
+  "name": "finboard",
+  "version": "0.0.1",
+  "description": "Personal Finance Manager",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "npm": "^6.4.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
+  },
+  "scripts": {
+    "start": "npm run build:live",
+    "swag": "npm run prepare:swagger-ui",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krish512/FinBoard"
+  },
+  "keywords": [
+    "finance"
+  ],
+  "author": "Krishna Modi <krish512@hotmail.com>",
+  "license": "MIT"
+}

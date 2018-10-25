@@ -1,0 +1,20 @@
+{
+    "apps": [
+        {
+            "name": "finboard",
+            "args": [],
+            "script": "dist/index.js",
+            "env": {},
+            "env_development": {
+                "NODE_ENV": "development"
+            },
+            "env_production": {
+                "NODE_ENV": "production"
+            },
+            "node_args": [],
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "instances": 1,
+            "exec_mode": "cluster"
+        }
+    ]
+}
