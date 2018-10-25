@@ -70,7 +70,7 @@ class Home extends Component {
                                 </div>
                                 <div className="row no-gutters padding-10v">
                                     <div className="col-md-1 text-center">3.</div>
-                                    <div className="col-md-6">Dish TV Bill</div>
+                                    <div className="col-md-6">DEN TV Bill</div>
                                     <div className="col-md-3">{monthNames[d.getMonth()]} 11, {d.getFullYear()} - Quarterly</div>
                                     <div className="col-md-2 text-center colorPrimary">{config.currency} 260</div>
                                 </div>
